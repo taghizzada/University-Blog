@@ -1,0 +1,251 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background: #fff;
+  color: #333;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+  font-size: 24px;
+}
+
+header .header-right {
+  float: right;
+}
+
+header nav {
+  float: right;
+  margin-top: 5px;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+header a:hover {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+}
+
+.header-contact {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  clear: both;
+}
+.header-contact a {
+  font-size: 14px;
+  color: #0056b3;
+  margin-left: 5px;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  border: none;
+}
+
+/* Main Content and Sidebar Layout */
+.main-content {
+  float: left;
+  width: 65%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.sidebar .widget {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .widget h3 {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.sidebar ul li:last-child {
+  border-bottom: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #0056b3;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Post Styles */
+.post {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.post:last-of-type {
+  border-bottom: none;
+}
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.post h2,
+.post h3 {
+  margin: 0 0 10px 0;
+}
+
+.post .meta {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.post a.read-more {
+  display: inline-block;
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.post a.read-more:hover {
+  text-decoration: underline;
+}
+
+.post .pull-quote {
+  float: right;
+  width: 30%;
+  margin: 0 0 10px 20px;
+  padding-left: 20px;
+  border-left: 4px solid #0056b3;
+  font-style: italic;
+  color: #555;
+}
+
+/* About Page Specific Styles */
+.author-image {
+  float: left;
+  margin: 0 20px 10px 0;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Audio Player Styles */
+.main-content audio {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form Styles */
+.contact-form {
+  margin-top: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.submit-btn {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background: #004494;
+}
+
+/* Footer Styles */
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
